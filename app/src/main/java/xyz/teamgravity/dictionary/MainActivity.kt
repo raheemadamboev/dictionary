@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import xyz.teamgravity.dictionary.ui.theme.DictionaryTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
