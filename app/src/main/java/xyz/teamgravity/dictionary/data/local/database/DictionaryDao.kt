@@ -14,7 +14,7 @@ interface DictionaryDao {
     ///////////////////////////////////////////////////////////////////////////
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertWordInfos(info: WordInfoEntity)
+    suspend fun insertWordInfos(info: List<WordInfoEntity>)
 
     ///////////////////////////////////////////////////////////////////////////
     // Delete
