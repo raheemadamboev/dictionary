@@ -17,7 +17,6 @@ data class WordInfoEntity(
     val phonetic: String = "",
     val meanings: List<MeaningModel>
 ) {
-
     fun toWordInfoModel(): WordInfoModel {
         return WordInfoModel(
             word = word,
