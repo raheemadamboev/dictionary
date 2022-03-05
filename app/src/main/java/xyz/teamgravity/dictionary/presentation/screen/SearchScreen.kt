@@ -54,7 +54,7 @@ fun SearchScreen() {
                     }
                 }
             }
-            if (state.loading) CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
+            if (state.loading && state.wordInfos.isEmpty()) CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
         }
     }
 }
