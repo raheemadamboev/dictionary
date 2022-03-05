@@ -1,4 +1,4 @@
-package xyz.teamgravity.dictionary.ui.theme
+package xyz.teamgravity.dictionary.presentation.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
