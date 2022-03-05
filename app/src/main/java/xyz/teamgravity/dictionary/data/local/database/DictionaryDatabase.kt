@@ -7,7 +7,7 @@ import xyz.teamgravity.dictionary.data.local.entity.WordInfoEntity
 
 @Database(
     entities = [WordInfoEntity::class],
-    version = 1
+    version = DictionaryConst.VERSION
 )
 @TypeConverters(DictionaryConverters::class)
 abstract class DictionaryDatabase : RoomDatabase() {
